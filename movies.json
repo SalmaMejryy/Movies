@@ -1,0 +1,163 @@
+[
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "creation_date": "1972-03-24",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "image": "
+    "
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "creation_date": "1994-10-14",
+    "description": "Several stories of crime in Los Angeles interweave in Tarantino's nonlinear narrative, blending violence and dark humor.",
+    "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pulp_Fiction_poster.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "creation_date": "1994-09-23",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Shawshank_Redemption_poster.jpg"
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "creation_date": "2010-07-16",
+    "description": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_2010_poster.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "creation_date": "2008-07-18",
+    "description": "Batman faces the Joker, a criminal mastermind who seeks to create chaos across Gotham City.",
+    "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f4/The_Dark_Knight_(2008)_poster.jpg"
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "creation_date": "2019-05-30",
+    "description": "A poor family schemes to become employed by a wealthy household by infiltrating their household and taking over their lives.",
+    "actors": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_2019_film_poster.jpg"
+  },
+  {
+    "title": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "creation_date": "2001-07-20",
+    "description": "A young girl enters a world of spirits and must find a way to free herself and her parents.",
+    "actors": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Spirited_Away_poster.jpg"
+  },
+  {
+    "title": "Casablanca",
+    "director": "Michael Curtiz",
+    "creation_date": "1942-11-26",
+    "description": "Set during WWII, an American expatriate must choose between love and helping his former lover's husband escape from Casablanca.",
+    "actors": ["Humphrey Bogart", "Ingrid Bergman", "Paul Henreid"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Casablanca_poster.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "creation_date": "1993-12-15",
+    "description": "The true story of Oskar Schindler, who saved over a thousand Jewish refugees during the Holocaust by employing them in his factories.",
+    "actors": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/16/Schindler%27s_List_poster.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "creation_date": "1999-10-15",
+    "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
+    "actors": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Fight_Club_theatrical_release_poster.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "director": "The Wachowskis",
+    "creation_date": "1999-03-31",
+    "description": "A hacker discovers the true nature of reality and his role in the war against its controllers.",
+    "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/96/The_Matrix_poster.jpg"
+  },
+  {
+    "title": "La La Land",
+    "director": "Damien Chazelle",
+    "creation_date": "2016-12-09",
+    "description": "A jazz pianist and an aspiring actress pursue their dreams in Los Angeles while facing romantic and professional challenges.",
+    "actors": ["Ryan Gosling", "Emma Stone", "John Legend"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/La_La_Land_(2016)_theatrical_poster.jpg"
+  },
+  {
+    "title": "Titanic",
+    "director": "James Cameron",
+    "creation_date": "1997-12-19",
+    "description": "A young couple from different social classes fall in love aboard the ill-fated RMS Titanic.",
+    "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Titanic_theatrical_poster.jpg/1280px-Titanic_theatrical_poster.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": "Peter Jackson",
+    "creation_date": "2001-12-19",
+    "description": "A meek Hobbit and eight companions set out on a journey to destroy a powerful ring and save Middle-earth.",
+    "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring_-_theatrical_poster.jpg/1280px-The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring_-_theatrical_poster.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "creation_date": "1994-07-06",
+    "description": "The life story of Forrest Gump, a man with low IQ but good intentions, who witnesses and influences several historical events.",
+    "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Forrest_Gump_poster.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "creation_date": "1991-02-14",
+    "description": "A young FBI cadet must meet with an incarcerated cannibalistic serial killer to catch another serial killer.",
+    "actors": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Silence_of_the_Lambs_movie_poster.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "director": "Ridley Scott",
+    "creation_date": "2000-05-05",
+    "description": "A Roman general seeks vengeance after being betrayed and reduced to slavery, becoming a gladiator.",
+    "actors": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gladiator_theatrical_poster.jpg/1280px-Gladiator_theatrical_poster.jpg"
+  },
+  {
+    "title": "The Social Network",
+    "director": "David Fincher",
+    "creation_date": "2010-10-01",
+    "description": "The founding of Facebook and the resulting lawsuits and personal conflicts among its creators.",
+    "actors": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Social_Network_theatrical_release_poster.jpg"
+  },
+  {
+    "title": "Amélie",
+    "director": "Jean-Pierre Jeunet",
+    "creation_date": "2001-04-25",
+    "description": "A shy waitress decides to change the lives of those around her for the better while grappling with her own isolation.",
+    "actors": ["Audrey Tautou", "Mathieu Kassovitz", "Rufus"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Amelie_theatrical_release_poster.jpg"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "director": "Wes Anderson",
+    "creation_date": "2014-03-28",
+    "description": "The adventures of a legendary concierge and his lobby boy at a famous European hotel between the wars.",
+    "actors": ["Ralph Fiennes", "Tony Revolori", "F. Murray Abraham"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_Grand_Budapest_Hotel_-_theatrical_poster.jpg/1280px-The_Grand_Budapest_Hotel_-_theatrical_poster.jpg"
+  }
+]
