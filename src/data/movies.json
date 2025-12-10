@@ -1,0 +1,582 @@
+[
+  {
+    "title": "The Godfather",
+    "name": "The Godfather",
+    "author": "Francis Ford Coppola",
+    "category": "Crime Drama",
+    "rating": 9.2,
+    "year": 1972,
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son. This epic masterpiece explores themes of power, family loyalty, and the American dream through the lens of organized crime in post-war America.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Godfather Part II",
+    "name": "The Godfather Part II",
+    "author": "Francis Ford Coppola",
+    "category": "Crime Drama",
+    "rating": 9.0,
+    "year": 1974,
+    "description": "The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on the family crime syndicate. A rare sequel that matches its predecessor.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "12 Angry Men",
+    "name": "12 Angry Men",
+    "author": "Sidney Lumet",
+    "category": "Courtroom Drama",
+    "rating": 9.0,
+    "year": 1957,
+    "description": "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed. A masterclass in tension and dialogue set almost entirely in one room.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "name": "Pulp Fiction",
+    "author": "Quentin Tarantino",
+    "category": "Crime Thriller",
+    "rating": 8.9,
+    "year": 1994,
+    "description": "Several stories of crime in Los Angeles interweave in Tarantino's nonlinear narrative, blending violence and dark humor. This cult classic redefined independent cinema with its sharp dialogue and unconventional storytelling.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "name": "The Shawshank Redemption",
+    "author": "Frank Darabont",
+    "category": "Drama",
+    "rating": 9.3,
+    "year": 1994,
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. A powerful tale of hope and friendship set against the harsh reality of prison life.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Inception",
+    "name": "Inception",
+    "author": "Christopher Nolan",
+    "category": "Sci-Fi Thriller",
+    "rating": 8.8,
+    "year": 2010,
+    "description": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO. A mind-bending exploration of dreams within dreams that challenges perceptions of reality.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "name": "The Dark Knight",
+    "author": "Christopher Nolan",
+    "category": "Superhero Action",
+    "rating": 9.0,
+    "year": 2008,
+    "description": "Batman faces the Joker, a criminal mastermind who seeks to create chaos across Gotham City. This revolutionary superhero film transcends its genre with complex themes and an unforgettable performance by Heath Ledger.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Parasite",
+    "name": "Parasite",
+    "author": "Bong Joon-ho",
+    "category": "Black Comedy Thriller",
+    "rating": 8.5,
+    "year": 2019,
+    "description": "A poor family schemes to become employed by a wealthy household by infiltrating their household and taking over their lives. This Oscar-winning masterpiece offers a sharp critique of class inequality in modern society.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Spirited Away",
+    "name": "Spirited Away",
+    "author": "Hayao Miyazaki",
+    "category": "Animation Fantasy",
+    "rating": 8.6,
+    "year": 2001,
+    "description": "A young girl enters a world of spirits and must find a way to free herself and her parents. A breathtaking animated journey that showcases the magic of Studio Ghibli's imagination and artistry.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Casablanca",
+    "name": "Casablanca",
+    "author": "Michael Curtiz",
+    "category": "Romantic Drama",
+    "rating": 8.5,
+    "year": 1942,
+    "description": "Set during WWII, an American expatriate must choose between love and helping his former lover's husband escape from Casablanca. Timeless cinema that defined the golden age of Hollywood.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "name": "Schindler's List",
+    "author": "Steven Spielberg",
+    "category": "Historical Drama",
+    "rating": 8.9,
+    "year": 1993,
+    "description": "The true story of Oskar Schindler, who saved over a thousand Jewish refugees during the Holocaust by employing them in his factories. A haunting testament to human courage and compassion in the face of unspeakable evil.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "name": "Fight Club",
+    "author": "David Fincher",
+    "category": "Psychological Thriller",
+    "rating": 8.4,
+    "year": 1999,
+    "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more. A provocative exploration of masculinity, consumerism, and identity in modern society.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "name": "The Matrix",
+    "author": "The Wachowskis",
+    "category": "Sci-Fi Action",
+    "rating": 8.7,
+    "year": 1999,
+    "description": "A hacker discovers the true nature of reality and his role in the war against its controllers. This groundbreaking film revolutionized action cinema with its philosophical themes and innovative visual effects.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Goodfellas",
+    "name": "Goodfellas",
+    "author": "Martin Scorsese",
+    "category": "Crime Drama",
+    "rating": 8.7,
+    "year": 1990,
+    "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners. Scorsese's kinetic masterpiece about the rise and fall of a mobster.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "name": "The Empire Strikes Back",
+    "author": "Irvin Kershner",
+    "category": "Sci-Fi Adventure",
+    "rating": 8.7,
+    "year": 1980,
+    "description": "After the Rebels are overpowered by the Empire, Luke Skywalker begins Jedi training with Yoda. The darkest and most acclaimed chapter of the original Star Wars trilogy.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "name": "One Flew Over the Cuckoo's Nest",
+    "author": "Miloš Forman",
+    "category": "Drama",
+    "rating": 8.7,
+    "year": 1975,
+    "description": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the patients. A powerful exploration of institutional power and individual freedom.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "name": "Interstellar",
+    "author": "Christopher Nolan",
+    "category": "Sci-Fi Drama",
+    "rating": 8.6,
+    "year": 2014,
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival. An epic journey that combines hard science fiction with emotional storytelling.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "City of God",
+    "name": "City of God",
+    "author": "Fernando Meirelles",
+    "category": "Crime Drama",
+    "rating": 8.6,
+    "year": 2002,
+    "description": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer. A visceral and unforgettable portrait of life in the favelas.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGMwNTBmMTItMGNhOS00NmI0LWFiZmItZjQ4MjdkNGUyNjU3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Seven Samurai",
+    "name": "Seven Samurai",
+    "author": "Akira Kurosawa",
+    "category": "Action Drama",
+    "rating": 8.6,
+    "year": 1954,
+    "description": "A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves. Kurosawa's epic masterpiece that influenced countless action films.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWQ3OTM4ZGItMWEwZi00MjI5LWI3YzgtNTYwNWRkNmIzMGI5XkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "La La Land",
+    "name": "La La Land",
+    "author": "Damien Chazelle",
+    "category": "Musical Romance",
+    "rating": 8.0,
+    "year": 2016,
+    "description": "A jazz pianist and an aspiring actress pursue their dreams in Los Angeles while facing romantic and professional challenges. A modern musical that celebrates art, love, and the pursuit of dreams.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "name": "Saving Private Ryan",
+    "author": "Steven Spielberg",
+    "category": "War Drama",
+    "rating": 8.6,
+    "year": 1998,
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action. A harrowing and realistic portrayal of WWII combat.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Green Mile",
+    "name": "The Green Mile",
+    "author": "Frank Darabont",
+    "category": "Fantasy Drama",
+    "rating": 8.6,
+    "year": 1999,
+    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift. A moving tale of compassion and miracles.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Titanic",
+    "name": "Titanic",
+    "author": "James Cameron",
+    "category": "Romantic Disaster",
+    "rating": 7.8,
+    "year": 1997,
+    "description": "A young couple from different social classes fall in love aboard the ill-fated RMS Titanic. An epic romance set against one of history's most famous maritime disasters.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "name": "Fellowship of the Ring",
+    "author": "Peter Jackson",
+    "category": "Fantasy Adventure",
+    "rating": 8.8,
+    "year": 2001,
+    "description": "A meek Hobbit and eight companions set out on a journey to destroy a powerful ring and save Middle-earth. The beginning of one of cinema's greatest fantasy epics.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "name": "Return of the King",
+    "author": "Peter Jackson",
+    "category": "Fantasy Adventure",
+    "rating": 8.9,
+    "year": 2003,
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom. The epic conclusion that swept the Oscars.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "name": "Forrest Gump",
+    "author": "Robert Zemeckis",
+    "category": "Comedy Drama",
+    "rating": 8.8,
+    "year": 1994,
+    "description": "The life story of Forrest Gump, a man with low IQ but good intentions, who witnesses and influences several historical events. A heartwarming journey through American history.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "name": "Silence of the Lambs",
+    "author": "Jonathan Demme",
+    "category": "Psychological Horror",
+    "rating": 8.6,
+    "year": 1991,
+    "description": "A young FBI cadet must meet with an incarcerated cannibalistic serial killer to catch another serial killer. A chilling psychological thriller that set new standards for the genre.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "name": "Gladiator",
+    "author": "Ridley Scott",
+    "category": "Historical Action",
+    "rating": 8.5,
+    "year": 2000,
+    "description": "A Roman general seeks vengeance after being betrayed and reduced to slavery, becoming a gladiator. A visceral epic of honor, revenge, and the power of the human spirit.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Social Network",
+    "name": "The Social Network",
+    "author": "David Fincher",
+    "category": "Biographical Drama",
+    "rating": 7.7,
+    "year": 2010,
+    "description": "The founding of Facebook and the resulting lawsuits and personal conflicts among its creators. A compelling look at the dark side of tech entrepreneurship and friendship.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Amélie",
+    "name": "Amélie",
+    "author": "Jean-Pierre Jeunet",
+    "category": "Romantic Comedy",
+    "rating": 8.3,
+    "year": 2001,
+    "description": "A shy waitress decides to change the lives of those around her for the better while grappling with her own isolation. A whimsical celebration of finding magic in everyday life.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "name": "Grand Budapest Hotel",
+    "author": "Wes Anderson",
+    "category": "Comedy Adventure",
+    "rating": 8.1,
+    "year": 2014,
+    "description": "The adventures of a legendary concierge and his lobby boy at a famous European hotel between the wars. A visually stunning and quirky tale of friendship and adventure.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Back to the Future",
+    "name": "Back to the Future",
+    "author": "Robert Zemeckis",
+    "category": "Sci-Fi Comedy",
+    "rating": 8.5,
+    "year": 1985,
+    "description": "A teenager is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his friend. A perfect blend of adventure, comedy, and heart.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "name": "Whiplash",
+    "author": "Damien Chazelle",
+    "category": "Music Drama",
+    "rating": 8.5,
+    "year": 2014,
+    "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing. An intense exploration of ambition and perfection.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Prestige",
+    "name": "The Prestige",
+    "author": "Christopher Nolan",
+    "category": "Mystery Thriller",
+    "rating": 8.5,
+    "year": 2006,
+    "description": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion. A twisted tale of obsession and sacrifice.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "name": "The Lion King",
+    "author": "Roger Allers, Rob Minkoff",
+    "category": "Animation Family",
+    "rating": 8.5,
+    "year": 1994,
+    "description": "Lion prince Simba flees his kingdom after the tragic death of his father, only to learn the true meaning of responsibility and bravery. Disney's timeless tale of growth and redemption.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Departed",
+    "name": "The Departed",
+    "author": "Martin Scorsese",
+    "category": "Crime Thriller",
+    "rating": 8.5,
+    "year": 2006,
+    "description": "An undercover cop and a mole in the police try to identify each other while infiltrating an Irish gang in Boston. A tense cat-and-mouse thriller.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "name": "Grave of the Fireflies",
+    "author": "Isao Takahata",
+    "category": "Animation War Drama",
+    "rating": 8.5,
+    "year": 1988,
+    "description": "Two siblings struggle to survive in Japan during World War II. A devastating and beautiful anti-war masterpiece from Studio Ghibli.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Django Unchained",
+    "name": "Django Unchained",
+    "author": "Quentin Tarantino",
+    "category": "Western",
+    "rating": 8.4,
+    "year": 2012,
+    "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner. Tarantino's explosive take on the Western genre.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "WALL-E",
+    "name": "WALL-E",
+    "author": "Andrew Stanton",
+    "category": "Animation Sci-Fi",
+    "rating": 8.4,
+    "year": 2008,
+    "description": "In a distant future, a small waste-collecting robot inadvertently embarks on a space journey that will decide the fate of mankind. A touching love story about environmental responsibility.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "name": "Avengers: Endgame",
+    "author": "Anthony Russo, Joe Russo",
+    "category": "Superhero Action",
+    "rating": 8.4,
+    "year": 2019,
+    "description": "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance to the universe. The epic culmination of the MCU's Infinity Saga.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Joker",
+    "name": "Joker",
+    "author": "Todd Phillips",
+    "category": "Psychological Thriller",
+    "rating": 8.4,
+    "year": 2019,
+    "description": "A mentally troubled comedian descends into madness and becomes a symbol of chaos in Gotham City. A dark character study that reimagines the iconic villain's origin.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Pianist",
+    "name": "The Pianist",
+    "author": "Roman Polanski",
+    "category": "War Drama",
+    "rating": 8.5,
+    "year": 2002,
+    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto during World War II. A harrowing true story of survival and the power of music.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "name": "Avengers: Infinity War",
+    "author": "Anthony Russo, Joe Russo",
+    "category": "Superhero Action",
+    "rating": 8.4,
+    "year": 2018,
+    "description": "The Avengers and their allies must be willing to sacrifice all to defeat Thanos before his blitz of devastation puts an end to the universe. The game-changing Marvel epic.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Coco",
+    "name": "Coco",
+    "author": "Lee Unkrich",
+    "category": "Animation Family",
+    "rating": 8.4,
+    "year": 2017,
+    "description": "A young musician seeks his fortune in the Land of the Dead to unlock his family's history. A beautiful celebration of Mexican culture and the importance of family memory.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Usual Suspects",
+    "name": "The Usual Suspects",
+    "author": "Bryan Singer",
+    "category": "Crime Mystery",
+    "rating": 8.5,
+    "year": 1995,
+    "description": "A sole survivor tells the twisted tale of a brutal massacre and the greatest criminal mastermind ever. A neo-noir classic with one of cinema's most iconic plot twists.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Your Name",
+    "name": "Your Name",
+    "author": "Makoto Shinkai",
+    "category": "Animation Romance",
+    "rating": 8.4,
+    "year": 2016,
+    "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart? A beautiful tale of fate and connection.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Oldboy",
+    "name": "Oldboy",
+    "author": "Park Chan-wook",
+    "category": "Thriller Mystery",
+    "rating": 8.4,
+    "year": 2003,
+    "description": "After being kidnapped and imprisoned for fifteen years, a man is released and must find his captor. A visceral and unforgettable Korean revenge thriller.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Toy Story",
+    "name": "Toy Story",
+    "author": "John Lasseter",
+    "category": "Animation Family",
+    "rating": 8.3,
+    "year": 1995,
+    "description": "A cowboy doll is profoundly threatened when a new spaceman figure supplants him as top toy. Pixar's groundbreaking first feature that revolutionized animation.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "name": "Requiem for a Dream",
+    "author": "Darren Aronofsky",
+    "category": "Psychological Drama",
+    "rating": 8.3,
+    "year": 2000,
+    "description": "The drug-induced utopias of four individuals are shattered when their addictions run deep. A harrowing and unforgettable exploration of addiction.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "name": "Eternal Sunshine",
+    "author": "Michel Gondry",
+    "category": "Romantic Sci-Fi",
+    "rating": 8.3,
+    "year": 2004,
+    "description": "When their relationship turns sour, a couple undergoes a procedure to have each other erased from their memories. An inventive meditation on love and memory.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Apocalypse Now",
+    "name": "Apocalypse Now",
+    "author": "Francis Ford Coppola",
+    "category": "War Drama",
+    "rating": 8.4,
+    "year": 1979,
+    "description": "A U.S. Army officer is sent on a dangerous mission into Cambodia to assassinate a renegade colonel during the Vietnam War. A hallucinatory journey into the heart of darkness.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEyNGEtZWNhY2JhNWQ4OGY5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Memories of Murder",
+    "name": "Memories of Murder",
+    "author": "Bong Joon-ho",
+    "category": "Crime Thriller",
+    "rating": 8.1,
+    "year": 2003,
+    "description": "In a small Korean province, local detectives attempt to solve a series of brutal killings. A masterful crime drama based on real events.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGViNTg4YTktYTQ2Ni00MTU0LWJlZWYtZWNjYjYzMzlkMmE5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "name": "Once Upon a Time in the West",
+    "author": "Sergio Leone",
+    "category": "Western",
+    "rating": 8.5,
+    "year": 1968,
+    "description": "A mysterious stranger joins a woman and an outlaw to avenge the murder of her family. Leone's operatic Western masterpiece.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODQ3NDExOGYtMzI3Mi00NWRlLTkwNjAtNjc4MDgzZGJiZTA1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Princess Mononoke",
+    "name": "Princess Mononoke",
+    "author": "Hayao Miyazaki",
+    "category": "Animation Fantasy",
+    "rating": 8.3,
+    "year": 1997,
+    "description": "On a journey to find the cure for a curse, a young warrior encounters a girl raised by wolves fighting to protect the forest. An epic environmental fable from Studio Ghibli.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Witness for the Prosecution",
+    "name": "Witness for the Prosecution",
+    "author": "Billy Wilder",
+    "category": "Mystery Thriller",
+    "rating": 8.4,
+    "year": 1957,
+    "description": "A veteran British lawyer must defend a man accused of murdering a wealthy widow. Classic courtroom drama with brilliant twists.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Alien",
+    "name": "Alien",
+    "author": "Ridley Scott",
+    "category": "Sci-Fi Horror",
+    "rating": 8.4,
+    "year": 1979,
+    "description": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission. A masterclass in atmospheric horror.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Dr. Strangelove",
+    "name": "Dr. Strangelove",
+    "author": "Stanley Kubrick",
+    "category": "Black Comedy",
+    "rating": 8.4,
+    "year": 1964,
+    "description": "An insane American general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop. Kubrick's satirical masterpiece.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "name": "Spider-Verse",
+    "author": "Bob Persichetti, Peter Ramsey",
+    "category": "Animation Superhero",
+    "rating": 8.4,
+    "year": 2018,
+    "description": "Teen Miles Morales becomes Spider-Man and must team up with Spider-People from other dimensions. Revolutionary animation that redefined the superhero genre.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg"
+  }
+]
