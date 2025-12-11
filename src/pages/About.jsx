@@ -1,12 +1,39 @@
+import { useState, useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { fetchMovieStats } from '../services/movieService'
 
 const About = () => {
+  const [stats, setStats] = useState({
+    totalMovies: 0,
+    categories: 0,
+    avgRating: 0,
+    yearRange: { oldest: 0, newest: 0 }
+  })
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const loadStats = async () => {
+      setIsLoading(true)
+      try {
+        const data = await fetchMovieStats()
+        setStats(data)
+      } catch (error) {
+        console.error('Error loading stats:', error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    loadStats()
+  }, [])
+
   return (
     <div className="min-h-screen bg-black flex flex-col">
       <Header />
 
       <main className="flex-grow pt-20">
+        
         {/* Hero Section */}
         <div className="relative bg-gradient-to-b from-black via-gray-900 to-black border-b border-gray-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-20">
@@ -27,10 +54,13 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-white mb-8">Our Mission</h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                CineVault was created with a simple yet profound mission: to make cinematic masterpieces accessible to everyone, everywhere. We believe that great films have the power to inspire, educate, and transform lives.
+                CineVault was created with a simple yet profound mission: to make cinematic masterpieces 
+                accessible to everyone, everywhere. We believe that great films have the power to inspire, 
+                educate, and transform lives.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Whether you're a casual moviegoer or a dedicated film enthusiast, CineVault offers a carefully curated collection that spans genres, decades, and cultures, ensuring there's always something new to discover.
+                Whether you're a casual moviegoer or a dedicated film enthusiast, CineVault offers a curated 
+                collection spanning genres, decades, and cultures—ensuring there's always something new to discover.
               </p>
               <div className="flex items-center space-x-4 mt-8">
                 <div className="flex items-center space-x-2">
@@ -48,21 +78,103 @@ const About = () => {
               </div>
             </div>
 
+            {/* Stats Card */}
             <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-12 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-gradient-to-br from-red-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-red-600/30">
-                  <svg className="w-14 h-14 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
-                  </svg>
+              {isLoading ? (
+                <div className="text-center">
+                  <div className="w-24 h-24 bg-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-6 animate-pulse">
+                    <svg className="w-14 h-14 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
+                    </svg>
+                  </div>
+                  <div className="h-12 bg-gray-800 rounded w-32 mx-auto mb-3 animate-pulse"></div>
+                  <div className="h-6 bg-gray-800 rounded w-48 mx-auto animate-pulse"></div>
                 </div>
-                <h3 className="text-5xl font-black text-white mb-3">1000+</h3>
-                <p className="text-gray-400 text-lg">Premium Films & Series</p>
-              </div>
+              ) : (
+                <div className="text-center">
+                  <div className="w-24 h-24 bg-gradient-to-br from-red-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-red-600/30">
+                    <svg className="w-14 h-14 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-5xl font-black text-white mb-3">
+                    {stats.totalMovies}+
+                  </h3>
+                  <p className="text-gray-400 text-lg">Premium Films & Series</p>
+                </div>
+              )}
             </div>
           </div>
 
-          {/* Features Grid */}
+          {/* Dynamic Stats Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-20">
+
+            {/* Total Movies */}
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-6 text-center">
+              {isLoading ? (
+                <>
+                  <div className="h-10 bg-gray-800 rounded w-20 mx-auto mb-2 animate-pulse"></div>
+                  <div className="h-4 bg-gray-800 rounded w-24 mx-auto animate-pulse"></div>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-4xl font-black text-red-600 mb-2">{stats.totalMovies}</h3>
+                  <p className="text-gray-400 text-sm">Total Movies</p>
+                </>
+              )}
+            </div>
+
+            {/* Categories */}
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-6 text-center">
+              {isLoading ? (
+                <>
+                  <div className="h-10 bg-gray-800 rounded w-20 mx-auto mb-2 animate-pulse"></div>
+                  <div className="h-4 bg-gray-800 rounded w-24 mx-auto animate-pulse"></div>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-4xl font-black text-red-600 mb-2">{stats.categories}</h3>
+                  <p className="text-gray-400 text-sm">Categories</p>
+                </>
+              )}
+            </div>
+
+            {/* Avg Rating */}
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-6 text-center">
+              {isLoading ? (
+                <>
+                  <div className="h-10 bg-gray-800 rounded w-20 mx-auto mb-2 animate-pulse"></div>
+                  <div className="h-4 bg-gray-800 rounded w-24 mx-auto animate-pulse"></div>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-4xl font-black text-red-600 mb-2">{stats.avgRating}</h3>
+                  <p className="text-gray-400 text-sm">Avg Rating</p>
+                </>
+              )}
+            </div>
+
+            {/* Year Range */}
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-6 text-center">
+              {isLoading ? (
+                <>
+                  <div className="h-10 bg-gray-800 rounded w-20 mx-auto mb-2 animate-pulse"></div>
+                  <div className="h-4 bg-gray-800 rounded w-24 mx-auto animate-pulse"></div>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-4xl font-black text-red-600 mb-2">
+                    {stats.yearRange.oldest}-{stats.yearRange.newest}
+                  </h3>
+                  <p className="text-gray-400 text-sm">Year Range</p>
+                </>
+              )}
+            </div>
+          </div>
+
+          {/* Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+
             <div className="bg-gradient-to-br from-gray-900 to-black rounded-lg border border-gray-800 p-8 hover:border-gray-700 transition-all duration-300 group">
               <div className="w-14 h-14 bg-red-600/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-600/20 transition-colors duration-300">
                 <svg className="w-7 h-7 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +183,8 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-3">Curated Collection</h3>
               <p className="text-gray-400 leading-relaxed">
-                Every film in our collection is carefully selected for its artistic merit, cultural significance, and entertainment value.
+                Every film in our collection is selected for artistic merit, cultural significance, 
+                and entertainment value.
               </p>
             </div>
 
@@ -83,7 +196,7 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-3">Easy Discovery</h3>
               <p className="text-gray-400 leading-relaxed">
-                Our intuitive search and filtering system makes it easy to find exactly what you're looking for or discover something new.
+                Intuitive search and filtering to help you find exactly what you want—or something new.
               </p>
             </div>
 
@@ -95,18 +208,20 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-3">Passion for Cinema</h3>
               <p className="text-gray-400 leading-relaxed">
-                Built by film enthusiasts, for film enthusiasts. We share your passion for the art of filmmaking.
+                Built by film lovers, for film lovers. We share your passion.
               </p>
             </div>
           </div>
 
-          {/* CTA Section */}
+          {/* CTA */}
           <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-12 text-center shadow-2xl shadow-red-600/20">
             <h2 className="text-4xl font-black text-white mb-4">Get In Touch</h2>
             <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-              Have questions, suggestions, or want to share your favorite films? We'd love to hear from you!
+              Have questions or suggestions? We'd love to hear from you!
             </p>
+
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+              
               <a
                 href="mailto:info@cinevault.com"
                 className="inline-flex items-center px-8 py-4 bg-white hover:bg-gray-100 text-black font-bold rounded-lg transition-all duration-200 transform hover:scale-105"
@@ -116,6 +231,7 @@ const About = () => {
                 </svg>
                 Email Us
               </a>
+
               <a
                 href="#"
                 className="inline-flex items-center px-8 py-4 bg-black/30 hover:bg-black/50 text-white font-bold rounded-lg border-2 border-white/30 hover:border-white/50 transition-all duration-200 backdrop-blur-sm"
@@ -125,6 +241,7 @@ const About = () => {
                 </svg>
                 Follow Us
               </a>
+
             </div>
           </div>
         </div>

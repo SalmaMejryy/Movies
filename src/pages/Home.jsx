@@ -14,27 +14,28 @@ const Home = () => {
 
   // Fetch movies on component mount
   useEffect(() => {
-    const loadMovies = async () => {
-      setIsLoading(true)
-      try {
-        const data = await fetchMovies()
-        setMovies(data)
-        setFilteredMovies(data)
-        
-        // Set random featured movie
-        if (data.length > 0) {
-          const randomIndex = Math.floor(Math.random() * data.length)
-          setFeaturedMovie(data[randomIndex])
-        }
-      } catch (error) {
-        console.error('Error loading movies:', error)
-      } finally {
-        setIsLoading(false)
+  const loadMovies = async () => {
+    setIsLoading(true)
+    try {
+      const data = await fetchMovies()
+      setMovies(data)
+      setFilteredMovies(data)
+      
+      if (data.length > 0) {
+        const randomIndex = Math.floor(Math.random() * data.length)
+        setFeaturedMovie(data[randomIndex])
       }
+    } catch (error) {
+      console.error('Error loading movies:', error)
+      // ADD THIS: Show error to user
+      alert('Failed to load movies. Please refresh the page.')
+    } finally {
+      setIsLoading(false)
     }
+  }
 
-    loadMovies()
-  }, [])
+  loadMovies()
+}, [])
 
   const handleSearch = (searchTerm) => {
     if (!searchTerm.trim()) {
